@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Login Page</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="login-container">
+        <h2>Masuk</h2>
+        <form id="loginform">
+            <div class="input-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" placeholder="Masukkan Username" required>
+            </div>
+
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="text" id="password" placeholder="Masukan password" required>
+            </div>
+
+            <div id="errorMassage" class="errorMassage"></div>
+
+            <button type="submit" class="btn-login">Login</button>
+        </form>
+        <div>
+            <p>Belum punya akun? <a href="#">Daftar disini</a></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
